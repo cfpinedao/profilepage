@@ -1,33 +1,45 @@
-.App {
-  text-align: center;
+.navspace{
+  margin-bottom: 1em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.carta{
+  margin-left: 1em;
+
+}
+
+.imagencarta{
   height: 40vmin;
-  pointer-events: none;
+  width: 40vmin;
+}
+.App-logo {
+  height: 10vmin;
+  width: 10vmin;
+  margin-left:1vmin;
+  display:inline-block;
+  align-self: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 4vmin;
 }
 
-.App-link {
-  color: #61dafb;
+.footerStyle{
+  background: #134E5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display:flex;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
